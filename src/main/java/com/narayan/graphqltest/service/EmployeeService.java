@@ -1,9 +1,8 @@
-package com.paybykiwi.grapneltest.service;
+package com.narayan.graphqltest.service;
 
-import com.paybykiwi.grapneltest.model.Employee;
+import com.narayan.graphqltest.model.Employee;
 
 import java.util.List;
-import java.util.Optional;
 
 public interface EmployeeService {
 

@@ -1,12 +1,11 @@
-package com.paybykiwi.grapneltest.controller;
+package com.narayan.graphqltest.controller;
 
 
-import com.paybykiwi.grapneltest.model.Employee;
-import com.paybykiwi.grapneltest.service.EmployeeService;
+import com.narayan.graphqltest.model.Employee;
+import com.narayan.graphqltest.service.EmployeeService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/traditional")

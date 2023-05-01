@@ -1,4 +1,4 @@
-package com.paybykiwi.grapneltest.model;
+package com.narayan.graphqltest.model;
 
 import jakarta.persistence.*;
 import lombok.*;

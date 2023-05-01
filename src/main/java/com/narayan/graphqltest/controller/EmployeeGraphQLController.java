@@ -1,20 +1,16 @@
-package com.paybykiwi.grapneltest.controller;
+package com.narayan.graphqltest.controller;
 
 
-import com.paybykiwi.grapneltest.model.Employee;
-import com.paybykiwi.grapneltest.service.EmployeeService;
+import com.narayan.graphqltest.model.Employee;
+import com.narayan.graphqltest.service.EmployeeService;
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.graphql.data.method.annotation.Argument;
 import org.springframework.graphql.data.method.annotation.MutationMapping;
 import org.springframework.graphql.data.method.annotation.QueryMapping;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 
 @Controller
 public class EmployeeGraphQLController {

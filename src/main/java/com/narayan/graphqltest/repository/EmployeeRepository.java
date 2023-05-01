@@ -1,11 +1,9 @@
-package com.paybykiwi.grapneltest.repository;
+package com.narayan.graphqltest.repository;
 
 
-import com.paybykiwi.grapneltest.model.Employee;
+import com.narayan.graphqltest.model.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-
-import java.util.Optional;
 
 
 @Repository

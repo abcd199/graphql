@@ -1,12 +1,11 @@
-package com.paybykiwi.grapneltest.service;
+package com.narayan.graphqltest.service;
 
-import com.paybykiwi.grapneltest.model.Employee;
-import com.paybykiwi.grapneltest.repository.EmployeeRepository;
+import com.narayan.graphqltest.model.Employee;
+import com.narayan.graphqltest.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 
 @Service
